@@ -4,4 +4,4 @@ I'm going through a cyber-security bootcamp and I write the stuff I think is use
 
 git-book: https://shafagh.gitbook.io/try-hack-me/
 
-summary.md: https://github.com/Shafagh-Sepehr/try-hack-me-lessons-summary/blob/main/SUMMARY.md
+summary.md: https://github.com/Shafagh-Sepehr/cyber-security-bootcamp-summary/blob/main/SUMMARY.md
