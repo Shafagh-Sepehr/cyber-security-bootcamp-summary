@@ -1,4 +1,4 @@
-# ftp
+# ▶️ ftp
 
 `ftp [IP]` is used to connect to a ftp server.
 

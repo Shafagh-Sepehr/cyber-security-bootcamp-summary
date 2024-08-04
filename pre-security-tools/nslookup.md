@@ -1,4 +1,4 @@
-# nslookup
+# ▶️ nslookup
 
 `nslookup --type=[type] domainName.tld`
 

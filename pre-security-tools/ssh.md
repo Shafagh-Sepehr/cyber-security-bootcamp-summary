@@ -1,4 +1,4 @@
-# ssh
+# ▶️ ssh
 
 Short for secure shell, with this command we remotely log in to a machines account.
 

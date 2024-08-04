@@ -1,4 +1,4 @@
-# basic Linux commands
+# ▶️ basic Linux commands
 
 <table><thead><tr><th width="188">Command</th><th>Description</th></tr></thead><tbody><tr><td>echo</td><td>Output any text that we provide<br></td></tr><tr><td>whoami</td><td>Find out what user we're currently logged in as!</td></tr></tbody></table>
 

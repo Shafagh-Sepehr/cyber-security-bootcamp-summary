@@ -1,4 +1,4 @@
-# simple digital forensics commands
+# ▶️ simple digital forensics commands
 
 `pdfinfo`
 

@@ -1,4 +1,4 @@
-# processes
+# ▶️ processes
 
 We can use the friendly `ps` command to provide a list of the running processes as our user's session and some additional information.
 
