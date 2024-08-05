@@ -30,3 +30,4 @@
 * [▶️ whois](complete-begginer/whois.md)
 * [▶️ dig](complete-begginer/dig.md)
 * [▶️ nmap](complete-begginer/nmap.md)
+* [▶️ SMB and related tools](complete-begginer/smb-and-related-tools.md)
