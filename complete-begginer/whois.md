@@ -6,4 +6,4 @@ Whois essentially allows you to query who a domain name is registered to. In Eur
 
 `whois [target]`
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
