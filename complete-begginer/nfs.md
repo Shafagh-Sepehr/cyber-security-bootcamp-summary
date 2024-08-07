@@ -1,4 +1,4 @@
-# NFS
+# ▶️ NFS
 
 ## What is NFS?
 
@@ -57,4 +57,7 @@ So, what are files with the SUID bit set? Essentially, this means that the file 
 
 ## Method
 
-This sounds complicated, but really- provided you're familiar with how SUID files work, it's fairly easy to understand. We're able to upload files to the NFS share, and control the permissions of these files. We can set the permissions of whatever we upload, in this case a bash shell executable. We can then log in through SSH, as we did in the previous task- and execute this executable to gain a root shell!\
+This sounds complicated, but really- provided you're familiar with how SUID files work, it's fairly easy to understand. We're able to upload files to the NFS share, and control the permissions of these files. We can set the permissions of whatever we upload, in this case a bash shell executable. We can then log in through SSH, as we did in the previous task- and execute this executable to gain a root shell!
+
+\
+we download `/bin/bash` from the target machine to out machine. then we make sure that root owns it with `sudo chown root bash`, then we give it special permission with `sudo chmod +s bash` (known as SUID). a file with special permission always executes as the user who owns the file, regardless of the user passing the command(we can double check with `ls -la bash`). then we run it with the `-p` which persists the permissions, so that it can run as root with SUID- as otherwise bash will sometimes drop the permissions. we can do this because root\_squashing is off in the nfs which is a misconfiguration.
