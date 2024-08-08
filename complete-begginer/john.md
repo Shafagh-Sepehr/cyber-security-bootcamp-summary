@@ -2,7 +2,7 @@
 description: we use it to crack passwords.
 ---
 
-# john
+# ▶️ john
 
 to crack `[username]:*[hash]`:
 

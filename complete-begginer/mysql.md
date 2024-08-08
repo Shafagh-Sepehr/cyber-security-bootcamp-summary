@@ -1,4 +1,4 @@
-# mysql
+# 🪵 mysql
 
 ## When you would begin attacking MySQL
 
