@@ -1,8 +1,9 @@
 ---
 description: we use it to crack passwords.
+icon: rectangle-terminal
 ---
 
-# ▶️ john
+# john
 
 to crack `[username]:*[hash]`:
 

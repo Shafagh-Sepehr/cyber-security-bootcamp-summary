@@ -1,4 +1,8 @@
-# ▶️ NFS
+---
+icon: rectangle-terminal
+---
+
+# NFS
 
 ## What is NFS?
 

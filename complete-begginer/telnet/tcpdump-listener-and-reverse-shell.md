@@ -1,8 +1,8 @@
 ---
-description: tcpdump listener
+icon: square-terminal
 ---
 
-# 🔼 tools used
+# tcpdump listener & reverse shell
 
 with the OpenVPN connection:
 

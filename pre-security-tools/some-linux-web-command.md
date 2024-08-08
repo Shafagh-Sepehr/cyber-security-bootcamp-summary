@@ -1,4 +1,8 @@
-# ▶️ some Linux web command
+---
+icon: rectangle-terminal
+---
+
+# some Linux web command
 
 `wget` command allows us to download files from the web via HTTP -- as if you were accessing the file in your browser.
 

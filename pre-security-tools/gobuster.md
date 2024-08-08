@@ -1,4 +1,8 @@
-# ▶️ gobuster
+---
+icon: rectangle-terminal
+---
+
+# gobuster
 
 ```bash
 gobuster -u https://website_url.com -w words_to_search.txt dir

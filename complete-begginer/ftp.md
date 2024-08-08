@@ -1,4 +1,8 @@
-# ▶️ ftp
+---
+icon: rectangle-terminal
+---
+
+# ftp
 
 ## What is FTP?
 
@@ -35,4 +39,4 @@ We're going to be exploiting an anonymous FTP login, to see what files we can ac
 
 It's worth noting  that some vulnerable versions of in.ftpd and some other FTP server variants return different responses to the "cwd" command for home directories which exist and those that don’t. This can be exploited because you can issue cwd commands before authentication, and if there's a home directory- there is more than likely a user account to go with it. While this bug is found mainly within legacy systems, it's worth knowing about, as a way to exploit FTP.
 
-we can check to see if we are able to login anonymously to the FTP server. We can do this using by typing `ftp [IP]` into the console, and entering "anonymous", and no password when prompted.
+we can check to see if we are able to login anonymously to the FTP server. We can do this using by typing `ftp [IP]`([see earlier ftp page](../pre-security-tools/ftp.md)) into the console, and entering "anonymous", and no password when prompted.

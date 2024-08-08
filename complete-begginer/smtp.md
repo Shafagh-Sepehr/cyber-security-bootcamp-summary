@@ -1,4 +1,8 @@
-# 📧 smtp
+---
+icon: envelope
+---
+
+# smtp
 
 What is SMTP?
 

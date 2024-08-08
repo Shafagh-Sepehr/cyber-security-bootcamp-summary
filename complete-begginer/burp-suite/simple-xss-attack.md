@@ -8,4 +8,4 @@ we just intercept the request and then put the data we want in the request data.
 
 e.g. we put `<script>alert("Succ3ssful XSS")<script>` instead of email and then url encode it with `Ctrl + u`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>

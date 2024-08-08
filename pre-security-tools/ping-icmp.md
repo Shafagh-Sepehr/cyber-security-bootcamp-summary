@@ -1,4 +1,8 @@
-# ▶️ ping (ICMP)
+---
+icon: rectangle-terminal
+---
+
+# ping (ICMP)
 
 `ping -c 4 [IP or domain name]`
 

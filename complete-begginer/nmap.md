@@ -1,4 +1,8 @@
-# ▶️ nmap
+---
+icon: rectangle-terminal
+---
+
+# nmap
 
 In a security audit of specified IP addresses, the first step is to identify the services running on each target through port scanning. This process reveals open ports that facilitate network connections. Ports are crucial for managing multiple services on a server, such as HTTP and HTTPS for web servers. For instance, a client may connect from port 49534 to a server's port 443. Understanding this landscape is essential for effective security assessment.
 

@@ -1,4 +1,8 @@
-# ▶️ simple digital forensics commands
+---
+icon: rectangle-terminal
+---
+
+# simple digital forensics commands
 
 `pdfinfo`
 

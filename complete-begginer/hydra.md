@@ -1,4 +1,8 @@
-# ▶️ hydra
+---
+icon: rectangle-terminal
+---
+
+# hydra
 
 ## Hydra
 

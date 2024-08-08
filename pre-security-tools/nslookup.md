@@ -1,4 +1,8 @@
-# ▶️ nslookup
+---
+icon: rectangle-terminal
+---
+
+# nslookup
 
 `nslookup --type=[type] domainName.tld`
 

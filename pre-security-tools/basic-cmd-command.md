@@ -1,4 +1,8 @@
-# ▶️ basic CMD command
+---
+icon: windows
+---
+
+# basic CMD command
 
 The command `hostname` will output the computer name.
 
