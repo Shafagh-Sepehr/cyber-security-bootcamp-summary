@@ -6,7 +6,7 @@ icon: rectangle-terminal
 
 In a security audit of specified IP addresses, the first step is to identify the services running on each target through port scanning. This process reveals open ports that facilitate network connections. Ports are crucial for managing multiple services on a server, such as HTTP and HTTPS for web servers. For instance, a client may connect from port 49534 to a server's port 443. Understanding this landscape is essential for effective security assessment.
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 Every computer has a total of 65535 available ports; however, many of these are registered as standard ports. For example, a HTTP Webservice can nearly always be found on port 80 of the server. It is important to note; however, that especially in a CTF setting, it is not unheard of for even these standard ports to be altered, making it even more imperative that we perform appropriate enumeration on the target.
 
@@ -26,13 +26,13 @@ We should always save the output of our scans -- this means that we only need to
 
 ## TCP Connect scan (`-sT`):
 
-<figure><img src="../.gitbook/assets/image (51).png" alt="" width="307"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt="" width="307"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (53).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (64).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _"... If the connection does not exist (CLOSED), then a reset (RST) is sent in response to any incoming segment except another reset. A SYN segment that does not match an existing connection is rejected by this means."_ [RFC 9293](https://datatracker.ietf.org/doc/html/rfc9293)
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 this way nmap finds if a port is closed.
 
@@ -44,9 +44,9 @@ That said, it is very easy to configure a firewall to respond with a RST TCP pac
 
 Where TCP scans perform a full three-way handshake with the target, SYN scans sends back a RST TCP packet after receiving a SYN/ACK from the server (this prevents the server from repeatedly trying to make the request)
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 pros:
 
@@ -90,15 +90,15 @@ tend to be even stealthier, relatively speaking, than a SYN "stealth" scan.
 
 * As the name suggests, NULL scans (`-sN`) are when the TCP request is sent with no flags set at all. As per the RFC, the target host should respond with a RST if the port is closed.
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
 * FIN scans (`-sF`) work in an almost identical fashion; however, instead of sending a completely empty packet, a request is sent with the FIN flag (usually used to gracefully close an active connection). Once again, Nmap expects a RST if the port is closed.
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 * As with the other two scans in this class, Xmas scans (`-sX`) send a malformed TCP packet and expects a RST response for closed ports.
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 #### For all three, If the port is open then there is no response to the malformed packet.
 
@@ -165,14 +165,14 @@ to _find_ needed scripts, We have two options. The first is the page on the [Nma
 
 There are two ways to search for installed scripts. One is by using the `/usr/share/nmap/scripts/script.db` file. Despite the extension, it's not a db but a formatted text file containing filenames and categories for each available script.
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption><p><em>Note the use of asterisks</em> (<code>*</code>) <em>on either side of the search term</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p><em>Note the use of asterisks</em> (<code>*</code>) <em>on either side of the search term</em></p></figcaption></figure>
 
 The same techniques can also be used to search for categories of script. For example:\
 `grep "safe" /usr/share/nmap/scripts/script.db`
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 ### _Installing New Scripts:_
 

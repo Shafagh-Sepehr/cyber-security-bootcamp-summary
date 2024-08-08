@@ -6,15 +6,15 @@ icon: rectangle-terminal
 
 We can use the friendly `ps` command to provide a list of the running processes as our user's session and some additional information.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 To see the processes run by other users and those that don't run from a session (i.e. system processes), we need to provide aux to the `ps` command like so: `ps aux`
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 Another very useful command is the `top` command; top gives you real-time statistics about the processes running on your system instead of a one-time view.(refreshes every 10 seconds or when you use the arrow keys to browse the various rows).
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 `kill` command ends a process. you can provide arguments to determine how rough should the killing be done.
 

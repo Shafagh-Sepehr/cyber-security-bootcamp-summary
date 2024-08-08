@@ -8,7 +8,7 @@ SMB - Server Message Block Protocol - is a client-server communication protocol 
 
 The SMB protocol is known as a response-request protocol, meaning that it transmits multiple messages between the client and server to establish a connection. Clients connect to servers using TCP/IP (actually **NetBIOS** over TCP/IP as specified in RFC1001 and RFC1002), NetBEUI or IPX/SPX.
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 Clients can send commands (SMBs) to the server to access shares, open files, and read/write files over the network.
 

@@ -12,7 +12,7 @@ This connection is secure and encrypted.
 
 e.g. `ssh root@45.65.98.102` or `ssh jack@10.15.159.205`
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 If you have a private rsa key instead of password:
 

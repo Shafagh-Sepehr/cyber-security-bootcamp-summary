@@ -12,6 +12,6 @@ the above command checks the website for possible hidden paths. for example, adm
 
 check the images below.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>gobuster has found two pages.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>gobuster has found two pages.</p></figcaption></figure>

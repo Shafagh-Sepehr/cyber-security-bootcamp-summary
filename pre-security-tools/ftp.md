@@ -10,5 +10,5 @@ but what is ftp? read it [here](../complete-begginer/ftp.md)
 
 It might support anonymous login. (it asks for name then we enter `anonymous`)
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 

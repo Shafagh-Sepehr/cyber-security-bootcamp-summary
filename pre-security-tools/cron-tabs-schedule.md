@@ -1,6 +1,6 @@
 ---
-description: scheduler but a hard one
 icon: rectangle-terminal
+description: scheduler but a hard one
 ---
 
 # cron tabs (schedule)
@@ -9,7 +9,7 @@ Users may want to schedule a certain action or task to take place after the syst
 
 to edit cron tabs enter `crontab -e`, and this file opens up:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 A crontab is simply a special file with formatting that is recognised by the `cron` process to execute each line step-by-step. Crontabs require 6 specific values:
 

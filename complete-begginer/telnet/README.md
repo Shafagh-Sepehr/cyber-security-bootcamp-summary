@@ -30,5 +30,5 @@ A reverse shell is a type of shell in which the target machine communicates back
 
 The attacking machine has a listening port, on which it receives the connection, resulting in code or command execution being achieved.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

