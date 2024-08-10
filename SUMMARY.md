@@ -57,3 +57,6 @@
     * [Data Integrity Failures](complete-begginer/owasp-top-10-2021/8.-software-and-data-integrity-failures/data-integrity-failures.md)
   * [9. Security Logging and Monitoring Failures](complete-begginer/owasp-top-10-2021/9.-security-logging-and-monitoring-failures.md)
   * [10. Server-Side Request Forgery (SSRF)](complete-begginer/owasp-top-10-2021/10.-server-side-request-forgery-ssrf.md)
+* [file filtering](complete-begginer/file-filtering/README.md)
+  * [How to change magic numbers](complete-begginer/file-filtering/how-to-change-magic-numbers.md)
+* [upload vulnerability exploiting](complete-begginer/upload-vulnerability-exploiting.md)
