@@ -1,4 +1,8 @@
-# file filtering
+---
+icon: file-circle-exclamation
+---
+
+# file type recognition
 
 First up, let's discuss the differences between _client_-side filtering and _server_-side filtering.
 
