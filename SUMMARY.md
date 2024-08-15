@@ -65,6 +65,7 @@
   * [Custom Rules](complete-begginer/john-the-ripper/custom-rules.md)
   * [rar and zip](complete-begginer/john-the-ripper/rar-and-zip.md)
   * [SSH Key Passwords](complete-begginer/john-the-ripper/ssh-key-passwords.md)
+  * [GPG/PGP](complete-begginer/john-the-ripper/gpg-pgp.md)
 * [Encryption](complete-begginer/encryption/README.md)
   * [SSH authentication](complete-begginer/encryption/ssh-authentication.md)
   * [SSH configuration (sort of)](complete-begginer/encryption/ssh-configuration-sort-of.md)
