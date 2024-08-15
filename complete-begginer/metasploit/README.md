@@ -87,6 +87,12 @@ auxiliary/scanner/smb/smb_login
 scanner/vnc/vnc_login
 ```
 
+if you have username and password of a smb user:
+
+```
+exploit/windows/smb/psexec
+```
+
 handler:
 
 ```
