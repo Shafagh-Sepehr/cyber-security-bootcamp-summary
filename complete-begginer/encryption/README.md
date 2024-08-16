@@ -1,3 +1,7 @@
+---
+icon: file-lock
+---
+
 # Encryption
 
 some good tools for breaking rsa encryptions:

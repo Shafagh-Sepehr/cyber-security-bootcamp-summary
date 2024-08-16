@@ -80,3 +80,8 @@
   * [Meterpreter>](complete-begginer/metasploit/meterpreter-greater-than/README.md)
     * [Commands](complete-begginer/metasploit/meterpreter-greater-than/commands.md)
     * [Post-Exploitation](complete-begginer/metasploit/meterpreter-greater-than/post-exploitation.md)
+* [Shell](complete-begginer/shell/README.md)
+  * [netcat](complete-begginer/shell/netcat.md)
+  * [socat](complete-begginer/shell/socat.md)
+  * [common shell payload](complete-begginer/shell/common-shell-payload.md)
+  * [Next steps](complete-begginer/shell/next-steps.md)
