@@ -27,3 +27,4 @@ if you have the B's password and it allows ssh connection you can do the fallowi
 * by copying the `/home/[B's username]/.ssh/authorized_keys`  to `/root/.ssh/authorized_keys` you get access to root, but to do so you need root access🤣(I dunno if you have the root password and connected with another username you can execute `sudo su` to become root and do the copying)
 * if someone get access to your private key and passphrase(or worse if your private key doesn't need one), they can use it to ssh to machine B. so you need to protect that with a strong passphrase.
 * as mentioned ssh configs are found in `/etc/ssh` folder specially the `sshd_config` file.
+* Note: If you get an error saying `Unable to negotiate with <IP> port 22: no matching how to key type found. Their offer: ssh-rsa, ssh-dss` this is because OpenSSH have deprecated ssh-rsa. Add `-oPubkeyAcceptedKeyTypes=+ssh-rsa` and `-oHostKeyAlgorithms=+ssh-rsa` to your command to connect.

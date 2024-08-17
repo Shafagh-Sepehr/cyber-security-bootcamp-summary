@@ -8,7 +8,7 @@ icon: rectangle-terminal
 
 <table><thead><tr><th width="188">Command</th><th>Full Name</th></tr></thead><tbody><tr><td>ls</td><td>listing</td></tr><tr><td>cd</td><td>change directory</td></tr><tr><td>cat</td><td>concatenate</td></tr><tr><td>pwd</td><td>print working directory</td></tr></tbody></table>
 
-<table><thead><tr><th width="188">Command</th><th>Description</th></tr></thead><tbody><tr><td>find</td><td>searches the current directory and subfolders for a file</td></tr><tr><td>grep</td><td>searches for a specific string in a file</td></tr><tr><td>wc</td><td>used to find out the number of newline count, word count, byte and character count in the files specified by the File arguments to the standard output and hold a total count for all named files.</td></tr></tbody></table>
+<table><thead><tr><th width="188">Command</th><th>Description</th></tr></thead><tbody><tr><td>find</td><td>searches the current directory and subfolders for a file</td></tr><tr><td>locate</td><td>find</td></tr><tr><td>grep</td><td>searches for a specific string in a file</td></tr><tr><td>wc</td><td>used to find out the number of newline count, word count, byte and character count in the files specified by the File arguments to the standard output and hold a total count for all named files.</td></tr></tbody></table>
 
 <figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
