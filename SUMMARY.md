@@ -100,3 +100,4 @@
     * [Passwords & Keys](complete-begginer/privilege-esclation/examples/passwords-and-keys.md)
     * [NFS](complete-begginer/privilege-esclation/examples/nfs.md)
     * [Kernel Exploits](complete-begginer/privilege-esclation/examples/kernel-exploits.md)
+* [file transfer between two machines](complete-begginer/file-transfer-between-two-machines.md)

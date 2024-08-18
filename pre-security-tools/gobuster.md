@@ -25,13 +25,16 @@ There are some useful Global flags that can be used as well. I've included them 
 \
 
 
-| Flag | Long Flag     | Description                               |
-| ---- | ------------- | ----------------------------------------- |
-| -t   | --threads     | Number of concurrent threads (default 10) |
-| -v   | --verbose     | Verbose output                            |
-| -z   | --no-progress | Don't display progress                    |
-| -q   | --quiet       | Don't print the banner and other noise    |
-| -o   | --output      | Output file to write results to           |
+| Flag               | Long Flag     | Description                               |
+| ------------------ | ------------- | ----------------------------------------- |
+| -t                 | --threads     | Number of concurrent threads (default 10) |
+| -v                 | --verbose     | Verbose output                            |
+| -z                 | --no-progress | Don't display progress                    |
+| -q                 | --quiet       | Don't print the banner and other noise    |
+| -o                 | --output      | Output file to write results to           |
+| -U and -P          |               | Username and Password for Basic Auth      |
+| -p \[x]            |               | Proxy to use for requests                 |
+| -c \[http cookies] |               | Specify a cookie for simulating your auth |
 
 I will typically change the number of threads to 64 to increase the speed of my scans. If you don't change the number of threads, Gobuster can be a little slow.
 

@@ -129,3 +129,7 @@ Run the /usr/local/bin/suid-env2 executable with bash debugging enabled and the 
 Run the /tmp/rootbash executable with -p to gain a shell running with root privileges:
 
 `/tmp/rootbash -p`
+
+### systemctl suid esclation
+
+{% embed url="https://alvinsmith.gitbook.io/progressive-oscp/untitled/vulnversity-privilege-escalation" %}
