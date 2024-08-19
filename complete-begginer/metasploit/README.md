@@ -6,7 +6,7 @@ icon: rectangle-terminal
 
 rankings given in `search`:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 You can direct the search function using keywords such as type and platform:
 

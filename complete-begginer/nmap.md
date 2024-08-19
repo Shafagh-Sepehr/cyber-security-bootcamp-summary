@@ -180,6 +180,16 @@ install the scripts manually by downloading the script from Nmap:(`sudo wget -O 
 
 ***
 
+### examples
+
+#### smb:
+
+`nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse [ip]`
+
+#### rpc/nfs/rpcbind:
+
+`nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount 10.10.98.233`
+
 ## Firewall Evasion
 
 some techniques for bypassing firewalls are (think stealth scans, along with NULL, FIN and Xmas scans).

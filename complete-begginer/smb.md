@@ -2,7 +2,7 @@
 icon: rectangle-terminal
 ---
 
-# SMB and related tools
+# smb
 
 SMB - Server Message Block Protocol - is a client-server communication protocol used for sharing access to files, printers, serial ports and other resources on a network. \[[source](https://searchnetworking.techtarget.com/definition/Server-Message-Block-Protocol)]
 
@@ -48,3 +48,10 @@ the default smb port is 139 or 445 which we would get from port scanning.
 
 an smb share may be configured to allow anonymous access using the username "`Anonymous`" without supplying a password.
 
+## Download share recursively
+
+`smbget -R smb://10.10.98.233/anonymous`
+
+## Nmap scripts
+
+`nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse [ip]`
