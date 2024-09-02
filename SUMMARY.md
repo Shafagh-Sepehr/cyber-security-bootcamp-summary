@@ -104,3 +104,13 @@
     * [NFS](complete-begginer/privilege-esclation/examples/nfs.md)
     * [Kernel Exploits](complete-begginer/privilege-esclation/examples/kernel-exploits.md)
 * [file transfer between two machines](complete-begginer/file-transfer-between-two-machines.md)
+
+***
+
+* [SQL injection](sql-injection.md)
+
+## Web hacking intro
+
+* [Walking an application](web-hacking-intro/walking-an-application.md)
+* [Content Discovery](web-hacking-intro/content-discovery.md)
+* [Authentication bypass](web-hacking-intro/authentication-bypass.md)

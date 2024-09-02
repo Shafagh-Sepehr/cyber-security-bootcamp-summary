@@ -83,7 +83,7 @@ A few other files that you may wish to search for are .txt files or other web ap
 
 3\. css
 
-`gobuster dir -u http://10.10.252.123/myfolder -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x.html,.css,.js`\
+`gobuster dir -u http://10.10.252.123/myfolder -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x .html,.css,.js`\
 
 
 ### The -k Flag

@@ -6,7 +6,7 @@ run scripts such as PowerUp (PowerUp aims to be a clearinghouse of common Window
 
 ## Writable and restartable services
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>an example</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>an example</p></figcaption></figure>
 
 in this example we can replace `ASCService.exe` with a payload and get a root reverse shell.
 
