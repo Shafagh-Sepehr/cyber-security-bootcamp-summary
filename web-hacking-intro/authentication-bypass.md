@@ -173,3 +173,9 @@ Set-Cookie: session=eyJpZCI6MSwiYWRtaW4iOmZhbHNlfQ==; Max-Age=3600; Path=/\
 
 
 This string base64 decoded has the value of **{"id":1,"admin": false}** we can then encode this back to base64 encoded again but instead setting the admin value to true, which now gives us admin access.
+
+
+
+## Examples
+
+overpass - the login logic in login.js was trusting server data which we could change with burpsuite or just change login.js to bypass auth. login.js would set a cookie with which the server would give us the admin panel. ( the cookie value wasn't important:) )

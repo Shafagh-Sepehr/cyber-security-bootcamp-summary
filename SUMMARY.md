@@ -108,9 +108,11 @@
 ***
 
 * [SQL injection](sql-injection.md)
+* [Google Dorking](google-dorking.md)
 
 ## Web hacking intro
 
 * [Walking an application](web-hacking-intro/walking-an-application.md)
-* [Content Discovery](web-hacking-intro/content-discovery.md)
+* [Content Discovery(ffuf, dirb, gobuster)](web-hacking-intro/content-discovery-ffuf-dirb-gobuster.md)
+* [Subdomain Enumeration](web-hacking-intro/subdomain-enumeration.md)
 * [Authentication bypass](web-hacking-intro/authentication-bypass.md)
