@@ -116,3 +116,5 @@
 * [Content Discovery(ffuf, dirb, gobuster)](web-hacking-intro/content-discovery-ffuf-dirb-gobuster.md)
 * [Subdomain Enumeration](web-hacking-intro/subdomain-enumeration.md)
 * [Authentication bypass](web-hacking-intro/authentication-bypass.md)
+* [IDOR](web-hacking-intro/idor.md)
+* [File Inclusion](web-hacking-intro/file-inclusion.md)
